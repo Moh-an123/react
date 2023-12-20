@@ -1,0 +1,28 @@
+.header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+  background-color: #e6e6f6;
+  margin-bottom: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+}
+.header h1 {
+  padding-left: 1em;
+}
+.header ul {
+  height: 40px;
+  list-style: none;
+  display: flex;
+  margin-bottom: 0px;
+  margin-top: 35px;
+  margin-left: auto;
+}
+.header ul li a {
+  font-size: larger;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding-inline: 20px;
+}
